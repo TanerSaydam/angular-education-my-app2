@@ -1,0 +1,12 @@
+<h2>Test Component</h2>
+<!-- <input 
+type="text" 
+#inputElement 
+name="" 
+[(ngModel)]="name"
+id="test" 
+[title] = "test()"
+(keyup)="getInputValueByEvent($event)"> -->
+<input type="number" [(ngModel)]="number">
+<h1 class="{{changeClass()}}" [innerText]="number">
+</h1>
